@@ -1,0 +1,14 @@
+{
+  "name": "reactbasics",
+  "version": "1.0.0",
+  "description": "Learning React",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
