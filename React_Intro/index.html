@@ -1,0 +1,61 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div id="root">
+			<h1>Hello World</h1>
+		</div>
+	</body>
+</html> -->
+
+<!-- Using Javascript -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div id="root"></div>
+	</body>
+	<script>
+		const rootElement = document.getElementById("root");
+		const data = document.createElement("h1");
+		data.textContent = "Hello World";
+		rootElement.appendChild(data);
+	</script>
+</html> -->
+
+<!-- Using React-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./index.css" />
+	</head>
+
+	<!-- The order of lines matter if the react import script is above it will throw error 
+	Order of the files should be in sequenve-->
+
+	<body>
+		<div id="root"></div>
+	</body>
+
+	<script
+		crossorigin
+		src="https://unpkg.com/react@18/umd/react.development.js"></script>
+	<script
+		crossorigin
+		src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+	<script src="./App.js"></script>
+</html>
